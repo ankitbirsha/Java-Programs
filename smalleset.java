@@ -12,6 +12,12 @@ class smallest
 		{
 			a[i]=sc.nextInt();
 		}
-		System.out.println()
+		int small=a[0];
+		for(int i=0<;i<n;i++)
+			{
+				if(a[i]<small)
+					small=a[i];
+			}
+			System.out.println("Smallest in the integer is"+small);
 	}
 }
