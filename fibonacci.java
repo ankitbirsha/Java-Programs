@@ -7,15 +7,29 @@ class fibonacci
 		int n=sc.nextInt();
 		int first=0;
 		int second=1;
+		if(n==0)
+		{
+			System.out.println("Enter value greater than 0");
+		}
+		 else if(n==1)
+		{
 		System.out.println(first);
-		System.out.println(second);
 
+		}
+		else
+		{
+			System.out.println(first);
+		System.out.println(second);
 		for(int i=0;i<n-2;i++)
 		{
+		
+
+
 			int next=first+second;
 			first=second;
 			second=next;
 			System.out.println(next);
 		}
+	}
 	}
 }
